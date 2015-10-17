@@ -1,0 +1,108 @@
+/* Global stuff */
+
+body {
+  background-color: #F7F7F7;
+}
+
+header {
+  display: none; 
+}
+
+#full_content {
+  width: 100%;
+  clear: left; 
+  background-color: #F7F7F7;
+}
+
+#content[role=main] {
+  width: 100%;
+  border:none;
+  background-color: #F7F7F7;
+}
+
+#content footer {
+  display: none; 
+}
+
+#content_box {
+  margin-left: 250px; 
+  color: #1A1A1A;
+  background-color: #F7F7F7;
+}
+
+/* Login */
+
+#login .img_box {
+  display:none; 
+}
+
+#login .box_center_large2 {
+  height:inherit;
+  padding: 10px 5px;
+  margin-top: 75px;
+}
+
+/* Sidebar */
+
+#sidebar {
+  position: fixed; 
+  background: #293B4E;
+}
+
+#sidebar .section {
+  background-color: #1D2B39; 
+}
+
+#sidebar .section a {
+	border: none;
+}
+
+#sidebar .menu_list li {
+  list-style-type: none; 
+}
+
+/* Tables */
+
+.adm_table th {
+  background-color: #2B3946;
+  border: none;
+}
+
+.adm_table tr:nth-child(odd) {
+  background-color: #EDEDED;
+}
+
+.adm_table tr:nth-child(even) {
+  background-color: #F7F7F7;
+}
+
+.adm_table {
+  border: 1px solid #A9A9A9; 
+}
+
+.adm_table td {
+  border:none; 
+}
+
+/* alert / notice */
+
+.new-ergo-info {
+  border: 1px solid #CDCDCE;
+  color: #06182C;
+  background-color: #D8E9FD;
+}
+
+.new-ergo-warning {
+  border: 1px solid #AF7878;
+  color: black;
+  background-color: #FFE4E4;
+}
+
+/* other fix */
+
+.prj_col_h {
+  background-color: #F7F7F7;
+  border: 1px solid #888888;
+}
+
+
