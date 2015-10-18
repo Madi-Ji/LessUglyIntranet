@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  display: none; 
+	display:none;
 }
 
 #full_content {
@@ -46,11 +46,11 @@ header {
 
 #sidebar {
   position: fixed; 
-  background: #293B4E;
+  background: #484F58;
 }
 
 #sidebar .section {
-  background-color: #1D2B39; 
+  background-color: #4B7FB4;
 }
 
 #sidebar .section a {
@@ -64,7 +64,7 @@ header {
 /* Tables */
 
 .adm_table th {
-  background-color: #2B3946;
+  background-color: #4B7FB4;
   border: none;
 }
 
@@ -105,4 +105,17 @@ header {
   border: 1px solid #888888;
 }
 
-
+#token-input {
+    display: block;
+    height: 200px;
+    width: 600px;
+    font-size: 160px;
+    font-family: arial;
+    text-align: center;
+    margin: 25px auto;
+    color: #000000;
+    background-color: rgba(92, 92, 92, 0);
+    outline: none;
+    border: none;
+    width: 100%;
+}
