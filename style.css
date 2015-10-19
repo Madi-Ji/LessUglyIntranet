@@ -47,6 +47,7 @@ header {
 #sidebar {
   position: fixed; 
   background: #484F58;
+  overflow: scroll;
 }
 
 #sidebar .section {
@@ -118,4 +119,19 @@ header {
     outline: none;
     border: none;
     width: 100%;
+}
+
+/*  Box  */
+
+.box_center {
+  background-color: #484F58;
+}
+
+/* breadcrumbs */
+#breadcrumbs-one, #breadcrumbs-one a {
+  background-color: #484F58;
+}
+
+#breadcrumbs-one a::after {
+   border-left-color: #4B7FB4;
 }
